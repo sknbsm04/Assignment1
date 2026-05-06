@@ -1,0 +1,16 @@
+name: pca-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - ipython
+  - jupyterlab
+  - notebook
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - matplotlib
+      - scipy
+      - plotly
